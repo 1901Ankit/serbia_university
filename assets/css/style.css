@@ -443,6 +443,13 @@ ul.liststyle.bullet li {
   .imagedoctors{
     /* display: none; */
   }
+  .rts-application-form-content{
+    padding: 0 !important;
+    box-shadow: none !important
+  }
+  .appis{
+    margin-top: 25px !important;
+  }
   .histru{
     margin-top: -80px !important;
   }
@@ -24684,4 +24691,7 @@ font-size: 28px;
   width: 100%;
   border: none !important;
   border-radius: 10px;
+}
+.error-message {
+  font-size: 15px;
 }
