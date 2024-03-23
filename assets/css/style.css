@@ -16327,7 +16327,7 @@ xclip
   padding-bottom: 12px;
 }
 .header__sticky.fixed .header__right--item .menu__trigger img {
-  filter: invert(100);
+  /* filter: invert(100); */
 }
 .header__sticky.fixed .navigation__menu--item__link {
   padding: 30px 0;
