@@ -443,6 +443,9 @@ ul.liststyle.bullet li {
   .imagedoctors{
     /* display: none; */
   }
+  .histru{
+    margin-top: -80px !important;
+  }
   .top-entry-area .single-item .item {
     padding: 0 !important;
 }
@@ -16973,10 +16976,10 @@ font-size: 28px;
 }
 @media screen and (max-width: 768px) {
   .rts-hero-slider-active .swiper-slide .rts-slider-content .rts-slider-title {
-    font-size: 38px;
+    font-size: 23px;
   }
   .qujs{
-    font-size: 25px;
+    font-size: 18px;
   }
 }
 .rts-hero-slider-active .swiper-slide .rts-slider-content .rts-slider-desc {
@@ -24662,4 +24665,23 @@ font-size: 28px;
   position: absolute;
   top: -10px;
   width: 120px;
+}
+.animate__animated.animate__backInLeft {
+  --animate-duration: 2s;
+  opacity: 0; /* Initially hide the element */
+}
+
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 2s;
+}
+
+/* Only this element will take half the time to finish */
+.my-element {
+  --animate-duration: 0.5s;
+}
+.rounders{
+  width: 100%;
+  border: none !important;
+  border-radius: 10px;
 }

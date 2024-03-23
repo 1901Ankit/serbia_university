@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/plugins/jquery-ui.css">
     <!-- custom style css -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body class="page">
@@ -211,13 +212,15 @@
                 <div class="col-lg-7 col-xl-8 col-md-11">
                     <div class="rts-about-section">
                         <img src="assets/images/about/845.jpg" alt="">
+
+
                     </div>
                 </div>
                 <div class="col-lg-5 col-xl-4 col-md-11">
                     <div class="rts-about-details">
                         <div class="single-about-info">
                             <div class="content">
-                                <h3 class="title"> 20,559</h3>
+                                <h3 class="title" id="number1"> 20,559</h3>
                                 <img src="assets/images/icon/11.svg" alt="">
                             </div>
                             <div class="desc">
@@ -226,7 +229,7 @@
                         </div>
                         <div class="single-about-info">
                             <div class="content">
-                                <h3 class="title">1,492</h3>
+                                <h3 class="title" id="number2">1,492</h3>
                                 <img src="assets/images/icon/12.svg" alt="">
                             </div>
                             <div class="desc">
@@ -235,7 +238,7 @@
                         </div>
                         <div class="single-about-info">
                             <div class="content">
-                                <h3 class="title">300k</h3>
+                                <h3 class="title" id="number3">300k</h3>
                                 <img src="assets/images/icon/13.svg" alt="">
                             </div>
                             <div class="desc">
@@ -268,16 +271,13 @@
 
                             The youngest University in the country was founded on that date - third Serbian and seventh
                             Yugoslavian. Since then, the city of Niš has been writing a new page of its history as a
-                            University city – exactly five decades of academic development, half a century of university
+                            University citys exactly five decades of academic development, half a century of university
                             mission passed since then…
                             <span class="d-block mb--30"></span>
-                            The University of Niš foundation, undoubtedly, represents one of the most significant
-                            moments in the contemporary history of the city. By developing itself, the University was at
-                            the same time making a new image of the city of Niš, this part of Serbia, and the whole
-                            Yugoslavia. In extremely turbulent decades of development, dynamic changes in social
-                            relations, and even more in the sphere of technical and technological processes, the higher
-                            education staff was the necessity, the outcome and the significant factor of the total
-                            changes in the country".
+                            The establishment of the University of Niš stands as a pivotal moment in the city's
+                            contemporary history, shaping its identity and contributing to the broader transformation of
+                            Serbia and Yugoslavia. Amidst dynamic societal and technological changes, the university's
+                            role as an educational hub became essential, driving progress and societal evolution.
                         </p>
                     </div>
                 </div>
@@ -344,12 +344,11 @@
                             <!-- Single Item -->
                             <div class="col-lg-4 single-item">
                                 <div class="item">
-                                    <i class="fa-solid fa-bed"></i>
-                                    <h4 class="rts__section--title">MEDICAL SCIENCE</h4>
+                                    <i class="fa-solid fa-gears"></i>
+                                    <h4 class="rts__section--title">engineering</h4>
                                     <p>
-                                        Medical science plays a crucial role in healthcare by providing the
-                                        evidence-based foundation for medical practice and guiding healthcare
-                                        professionals in delivering effective patient care.
+                                        Engineering at the University of Niš drives innovation and addresses real-world
+                                        challenges, shaping the future of technology and industry.
                                     </p>
                                     <ul>
                                         <li>
@@ -371,7 +370,7 @@
                         <!-- Single Item -->
                         <div class="col-md-4 col-sm-6 equal-height">
                             <div class="itemmeid">
-                                <i class="fa-solid fa-bed"></i>
+                                <i class="fa-solid fa-hospital"></i>
                                 <h4 class="">Bachelor of Medicine, Bachelor of Surgery </h4>
                                 <p>
                                     MBBS: A rigorous undergraduate program preparing future physicians for medical
@@ -397,7 +396,7 @@
                         <!-- Single Item -->
                         <div class="col-md-4 col-sm-6 equal-height">
                             <div class="itemmeid">
-                                <i class="fa-solid fa-bed"></i>
+                                <i class="fa-solid fa-truck-medical"></i>
                                 <h4 class="">Bachelor of Physiotherapy</h4>
                                 <p>
                                     BPT: Transforming lives through targeted rehabilitation, restoring movement, and
@@ -410,7 +409,7 @@
                         <!-- Single Item -->
                         <div class="col-md-4 col-sm-6 equal-height">
                             <div class="itemmeid">
-                                <i class="fa-solid fa-bed"></i>
+                                <i class="fa-light fa-user-nurse"></i>
                                 <h4 class="">Bachelor of Ayurvedic Medicine and Surgery </h4>
                                 <p>
                                     BAMS: Harnessing ancient wisdom to heal & harmonize body, mind, and spirit, shaping
@@ -436,7 +435,7 @@
                         <!-- Single Item -->
                         <div class="col-md-4 col-sm-6 equal-height">
                             <div class="itemmeid">
-                                <i class="fa-solid fa-bed"></i>
+                                <i class="fa-solid fa-user-doctor"></i>
                                 <h4 class="">Bachelor of Homeopathic and Surgery</h4>
                                 <p>
                                     BHMS: Blending surgery with the principles of homeopathy for holistic healing and
@@ -448,50 +447,60 @@
                     </div>
                 </div>
             </section>
-            <!-- 
-            <div class="row g-5 ">
-                <div class="col-lg-3 col-md-6 col-sm-6 ">
-                    <div class="rts__program--item" style="background-image: url(assets/images/program/41588.jpg);">
-                        <h5 class="rts__program--item--title">Bachelor of Medicine, Bachelor of Surgery</h5>
-                        <p class="rts__program--item--description">Embark on a journey of knowledge discovery, and
-                            growth at University of Nis.</p>
-
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 ">
-                    <div class="rts__program--item" style="background-image: url(assets/images/program/41588.jpg);">
-                        <h5 class="rts__program--item--title">Bachelor of Naturopathy and Yoga</h5>
-                        <p class="rts__program--item--description">Embark on a journey of knowledge discovery, and
-                            growth at University of Nis.</p>
-
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 ">
-                    <div class="rts__program--item" style="background-image: url(assets/images/program/41588.jpg);">
-                        <h5 class="rts__program--item--title">Doctor of Medicine</h5>
-                        <p class="rts__program--item--description">Embark on a journey of knowledge discovery, and
-                            growth at University of Nis.</p>
-
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 ">
-                    <div class="rts__program--item" style="background-image: url(assets/images/program/41588.jpg);">
-                        <h5 class="rts__program--item--title">Bachelor of Physiotherapy</h5>
-                        <p class="rts__program--item--description">Embark on a journey of knowledge discovery, and
-                            growth at Unipix University.</p>
-
-                    </div>
-                </div>
-            </div> -->
-
         </div>
     </section>
+
+
+    <section class="rts__section  rtes-section-padding mt-5">
+        <div class="rts-campus pt--100 rts-campus-bg mobile-padding moving">
+            <div class="container">
+                <div class="row justify-content-sm-center justify-content-lg-start">
+                    <div class="col-lg-6 col-xl-5 col-md-10 col-sm-11">
+                        <div class="rts-left-section">
+                            <h2 class="section-title rt-white mb--55">
+                                Embark on a Journey: Unveiling the Story of Nic University
+                            </h2>
+                            <a href="index.html" class="about-btn rts-nbg-btn btn-arrow 
+                    rt-white">Learn More <span><i class="fa-sharp fa-regular fa-arrow-right"></i></span></a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-7 col-md-10 col-sm-11">
+                        <div class="rts-right-section rt-relative">
+                            <p class="rt-white mb--40">"A campus tour of the University of Niš showcases its academic
+                                excellence, cultural diversity, global engagement, innovative facilities, alumni success
+                                stories, and community outreach initiatives, leaving visitors inspired by its impact and
+                                contributions to society".</p>
+                            <video autoplay muted loop playsinline class="rounders
+                      
+                    ">
+                                <source src="assets/images/The University of Serbia NIS (1).mp4" type="video/mp4">
+                            </video>
+                            <div class="rts-round-shape"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-text rt-clip-text">CAMPUS TOUR</div>
+                <div class="rt-shape">
+                    <img class="rt-shape__1" data-speed="0.04" src="assets/images/feature/shape/01.png" alt="">
+                    <img class="shape rt-shape__2" data-speed="0.04" src="assets/images/feature/shape/02.png" alt=""
+                        style="transform: matrix(1, 0, 0, 1, -8.3, 7.02);">
+                    <img class="shape rt-shape__3" data-speed="0.04" src="assets/images/feature/shape/03.png" alt=""
+                        style="transform: matrix(1, 0, 0, 1, -8.3, 7.02);">
+                    <img class="shape rt-shape__4" data-speed="0.04" src="assets/images/feature/shape/04.png" alt=""
+                        style="transform: matrix(1, 0, 0, 1, -8.3, 7.02);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
     <!-- program end -->
     <!-- <living> -->
-
-    <div class="rts-history mt-5" id="serbia">
+    <div class="rts-history mt-5 " id="serbia">
         <div class="container">
-            <div class="row g-5 mt-5 justify-content-md-center justify-content-start align-items-center">
+            <div class="row g-5 mt-5 histru justify-content-md-center justify-content-start align-items-center">
                 <div class="col-lg-6 col-md-11">
                     <div class="rts-history-section">
                         <h2 class="rts__section--title mb--40"> About Serbia</h2>
@@ -601,7 +610,11 @@
                             diversity, global engagement, innovative facilities, alumni success stories, and community
                             outreach initiatives, leaving visitors inspired by its impact and contributions to society.
                             <span class="d-block mb--30"></span>
-                            Overall, a campus tour at the University of Niš leaves a lasting impression on visitors, inspiring them with its commitment to academic excellence, cultural diversity, global engagement, innovation, alumni success, and community outreach. It serves as a testament to the transformative power of higher education in shaping future generations and creating positive change in society.”
+                            Overall, a campus tour at the University of Niš leaves a lasting impression on visitors,
+                            inspiring them with its commitment to academic excellence, cultural diversity, global
+                            engagement, innovation, alumni success, and community outreach. It serves as a testament to
+                            the transformative power of higher education in shaping future generations and creating
+                            positive change in society.”
                         </p>
                     </div>
                 </div>
@@ -609,13 +622,68 @@
         </div>
     </div>
 
+    <section class="rts-application-procedure rts-section-padding">
+        <div class="container">
+            <div class="row justify-content-sm-center">
+                <div class="col-lg-12 col-sm-11">
+                    <div class="rts-section mb--40 rt-between">
+                        <h2 class="rts-section-title w-440">How to Apply to
+                            Nic University</h2>
+                        <p class="w-520">If you have any questions or need assistance at any step of the application process, our admissions team is here to help. We look forward to welcoming you to Nic  University.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- apply content -->
+            <div class="row justify-content-sm-center justify-content-md-start g-5">
+                <div class="col-lg-4 col-md-6 col-sm-11">
+                    <div class="single-procedure">
+                        <div class="procedure-image">
+                            <img src="assets/images/feature/campus-2.jpg"  alt="application-thumb">
+                        </div>
+                        <div class="rt-clip-serial rt-clip-text">01</div>
+                        <div class="icon">
+                            <img src="assets/images/icon/07.svg" alt="">
+                        </div>
+                        <a href="#">Create an Account:</a>
+                        <p>"Create an account with University of NIC for innovative learning, global networking, personalized education, career opportunities, and social impact."</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-11">
+                    <div class="single-procedure">
+                        <div class="procedure-image">
+                            <img src="assets/images/feature/campus-2.jpg" alt="application-thumb">
+                        </div>
+                        <div class="rt-clip-serial rt-clip-text">02</div>
+                        <div class="icon">
+                            <img src="assets/images/icon/06.svg" alt="">
+                        </div>
+                        <a href="#">Online Application</a>
+                        <p>"Complete your online application for University of NIC to embark on an innovative educational journey tailored to your aspirations."</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-11">
+                    <div class="single-procedure">
+                        <div class="procedure-image">
+                            <img src="assets/images/feature/campus-2.jpg"  alt="application-thumb">
+                        </div>
+                        <div class="rt-clip-serial rt-clip-text">03</div>
+                        <div class="icon">
+                            <img src="assets/images/icon/06.svg" alt="">
+                        </div>
+                        <a href="#">Programs &amp; Requirements</a>
+                        <p>"Explore our diverse programs and their requirements at University of NIC, tailored to nurture your academic and professional goals."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- student feedback -->
     <section class="feedback rts-section-padding" id="testimonial">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="rts__section--wrapper v__9">
-                        <h2 class="rts__section--title">My STUDENTS FEEDBACK</h2>
+                        <h2 class="rts__section--title">OUR STUDENTS FEEDBACK</h2>
                         <p class="rts__section--description">You'll find something to spark your curiosity and enhance
                         </p>
                     </div>
@@ -851,7 +919,26 @@
         </div>
     </section>
     <!-- apply end -->
-
+    <div class="rts-newsletter v_1 rts-cta-background">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="rts-newsletter-box" style="background-image: url(assets/images/newsletter/bg-1.jpg);">
+                        <div class="rts-newsletter-box-content">
+                            <h4 class="newsletter-title">Don’t Miss Awesome Story From Our Alumni
+                            </h4>
+                            <div class="newsletter-form w-530">
+                                <form action="#">
+                                    <input type="email" name="subscription" id="subscription" placeholder="Enter Your mail" required="">
+                                    <button type="submit" class="rts-nbg-btn btn-arrow">Subscribe <span><i class="fa-sharp fa-regular fa-arrow-right"></i></span></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- footer -->
     <footer class="footer v__1">
         <div class="container">
@@ -1051,7 +1138,49 @@
             });
         });
     </script>
+    <script>
+        // Function to animate numbers from a starting point to the target number
+        function animateNumber(id, start, end, duration) {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                document.getElementById(id).textContent = Math.floor(progress * (end - start) + start).toLocaleString();
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
 
+        // Intersection Observer configuration
+        const options = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.5 // Percentage of the target element's visibility required to trigger the animation
+        };
+
+        // Callback function to start animation when the section becomes visible
+        function startAnimation(entries, observer) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateNumber('number1', 0, 20559, 2000); // Start from 0, end at 20559, duration 2000ms
+                    animateNumber('number2', 0, 1492, 2000); // Start from 0, end at 1492, duration 2000ms
+                    animateNumber('number3', 0, 30000, 2000); // Start from 0, end at 300000, duration 2000ms
+                    observer.unobserve(entry.target); // Stop observing once animation starts
+                }
+            });
+        }
+
+        // Initialize Intersection Observer
+        const observer = new IntersectionObserver(startAnimation, options);
+
+        // Target the section containing the numbers
+        const section = document.querySelector('.single-about-info');
+
+        // Start observing the section
+        observer.observe(section);
+    </script>
 </body>
 
 </html>
